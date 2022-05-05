@@ -1,0 +1,13 @@
+.balance_container {
+  margin: 30px 0px;
+}
+
+.balance {
+  margin: 50% 0;
+}
+
+.balance_amount {
+  font-size: 40px;
+  font-weight: bolder;
+  color: lightseagreen;
+}

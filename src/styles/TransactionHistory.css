@@ -1,0 +1,13 @@
+.transaction_history_container {
+  margin: 30px 20px;
+}
+
+.transaction_history_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 70px 90px;
+}
+
+.transaction_history_para {
+  font-size: 18px;
+  font-weight: 700;
+}

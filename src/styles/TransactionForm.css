@@ -1,0 +1,27 @@
+.transaction_form_container {
+  margin: 30px 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 70px;
+}
+
+.transaction_input {
+  min-width: 80%;
+  border: 2px solid lightseagreen;
+  padding: 0.8rem;
+}
+
+.transaction_input:hover {
+  border: 2px solid blue;
+}
+
+.button {
+  background-color: blue;
+  color: #f9f9f9;
+  width: 80%;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 18px;
+  border-color: blue;
+}
