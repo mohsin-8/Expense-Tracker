@@ -1,0 +1,6 @@
+.account_summary_container {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import "../styles/Balance.css";
 
+// import Component
+import AccountSummary from './AccountSummary';
+
 const Balance = () => {
     return (
         <>
@@ -9,6 +12,7 @@ const Balance = () => {
                     <h2>Current Balance</h2>
                     <br />
                     <span className='balance_amount'>$0.00</span>
+                    <AccountSummary />
                 </div>
             </div>
         </>

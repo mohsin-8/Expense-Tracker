@@ -18,10 +18,10 @@ const Footer = () => {
                     </div>
 
                     <div className="icons">
-                        <span><a href="https://github.com/mohsin-8" target="_blank"><BsGithub /></a></span>
-                        <span><a href="https://www.facebook.com/mohsin.khan.370" target="_blank"><BsFacebook /></a></span>
-                        <span><a href="https://www.instagram.com/m0m0o00/?hl=en" target="_blank"><BsInstagram /></a></span>
-                        <span><a href="https://www.linkedin.com/in/mohsin-ali-khan-1071ab1b6/" target="_blank"><BsLinkedin /></a></span>
+                        <span><a href="https://github.com/mohsin-8" rel="noreferrer" target="_blank"><BsGithub /></a></span>
+                        <span><a href="https://www.facebook.com/mohsin.khan.370" rel="noreferrer" target="_blank"><BsFacebook /></a></span>
+                        <span><a href="https://www.instagram.com/m0m0o00/?hl=en" rel="noreferrer" target="_blank"><BsInstagram /></a></span>
+                        <span><a href="https://www.linkedin.com/in/mohsin-ali-khan-1071ab1b6/" rel="noreferrer" target="_blank"><BsLinkedin /></a></span>
                     </div>
                 </div>
             </div>
