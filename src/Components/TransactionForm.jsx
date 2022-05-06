@@ -6,18 +6,18 @@ const TransactionForm = () => {
     const [isDetail, setDetail] = useState("");
     const [isAmount, setAmount] = useState(0);
 
-    const { addTransactions } = useContext(GlobalContext);
+    const { addTransaction } = useContext(GlobalContext);
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const newTransactions = {
+        const newTransaction = {
             id: Math.floor(Math.random() * 100000000),
-            isDetail,
-            isAmount: +isAmount
-        };
+            desc: isDetail,
+            amount: +isAmount
+        }
 
-        addTransactions(newTransactions);
+        addTransaction(newTransaction);
 
         setDetail("");
         setAmount("");
