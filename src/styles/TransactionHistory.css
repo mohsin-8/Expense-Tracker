@@ -7,7 +7,15 @@
   padding: 70px 90px;
 }
 
-.transaction_history_para {
-  font-size: 18px;
-  font-weight: 700;
+.transaction_list {
+  margin: 0;
+}
+
+.transaction_list > li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px grey;
+  padding: 10px 5px;
+  background-color: #f9f9f9;
+  margin: 5px 0px;
 }

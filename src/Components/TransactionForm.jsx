@@ -1,14 +1,23 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import "../styles/TransactionForm.css";
+import { GlobalContext } from '../context/GlobalState';
 
 const TransactionForm = () => {
     const [isDetail, setDetail] = useState("");
-    const [isAmount, setAmount] = useState("");
+    const [isAmount, setAmount] = useState(0);
+
+    const { addTransactions } = useContext(GlobalContext);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Detail:", isDetail);
-        console.log("Amount:", isAmount);
+
+        const newTransactions = {
+            id: Math.floor(Math.random() * 100000000),
+            isDetail,
+            isAmount: +isAmount
+        };
+
+        addTransactions(newTransactions);
 
         setDetail("");
         setAmount("");

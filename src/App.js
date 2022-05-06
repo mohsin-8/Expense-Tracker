@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import { GlobalProvider } from './context/GlobalState';
 
 // import Components
 import Header from './Components/Header';
@@ -11,13 +12,15 @@ import Footer from './Components/Footer';
 const App = () => {
   return (
     <>
-      <Header />
-      <div className="main_container">
-        <Balance />
-        <TransactionHistory />
-      </div>
-      <TransactionForm />
-      <Footer />
+      <GlobalProvider>
+        <Header />
+        <div className="main_container">
+          <Balance />
+          <TransactionHistory />
+        </div>
+        <TransactionForm />
+        <Footer />
+      </GlobalProvider>
     </>
   )
 }
